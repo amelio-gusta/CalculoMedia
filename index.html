@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExemploAula</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1> Calculadora de média</h1>
+        <!-- Instrução para usuário -->
+        <p>Digite duas notas para calcular a média
+        
+
+            <!-- Campo para digitar a primeira nota (aceita números de 0 a 10, com casas decimais) -->
+            <input type="number" id="nota1" placeholder="Nota 1" min="0" step="0.1"><br>
+            <!--- Campo para digitar a segunda nota (aceita números de 0 a 10, com casas decimais)-->
+            <input type="number" id="nota2" placeholder="Nota 2" min="0" step="0.1"><br>
+
+            <button onclick="calcularMedia()">Calcular Média</button>
+
+            <!--- Parabens onde sera exibido o resultado da tela --->
+            <p id="resultado"></p>
+
+    </div>
+
+    <img src="../EXEMPLO 1_SubindoGit/Imagens/2836dd5b0fc541f4e422a5935acbcedad29d349e.jpeg" alt="Imagem da logo" class="rodape-imagem">
+   
+    <!--- Importa o arquivo JavaScript externo-->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
